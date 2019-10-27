@@ -1,0 +1,138 @@
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('01.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .user_card {
+    height: 400px;
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #2ab1ce;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0;
+    border-radius: 5px;
+
+  }
+    .brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border: 10px solid white;
+    border-radius: 50%;
+    background: #C8C3C3;
+    padding: 10px;
+    text-align: center;
+  }
+  .brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  .form_container {
+    margin-top: 50px;
+  }
+  .login_btn {
+    width: 100%;
+    background: #4d4d4d !important;
+    color: white !important;
+  }
+  .login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+  }
+  .login_container {
+    padding: 0 2rem;
+  }
+  .input-group-text {
+    background: #4d4d4d  !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+  }
+  .input_user,
+  .input_pass:focus {
+    outline: 0px !important;
+  }
+  a {
+    color: white !important; 
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+  a:hover{
+    color:#4d4d4d !important ;
+    text-decoration: none;
+  }
+  .made-with-mk {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: fixed;
+    z-index: 555;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 30px;
+    background-color: rgba(16, 16, 16, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+    -moz-transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+    -o-transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+    transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+  }
+  .made-with-mk:hover, .made-with-mk:active, .made-with-mk:focus {
+    width: 270px;
+    color: #FFFFFF;
+    transition-duration: .55s;
+    padding: 10px 30px;
+  }
+  .made-with-mk:hover .made-with, .made-with-mk:active .made-with, .made-with-mk:focus .made-with {
+    opacity: 1;
+  }
+  .made-with-mk:hover .brand, .made-with-mk:active .brand, .made-with-mk:focus .brand {
+    left: 0;
+  }
+  .made-with-mk .brand,
+  .made-with-mk .made-with {
+    float: left;
+  }
+  .made-with-mk .brand {
+    color: #4d4d4d;
+    position: relative;
+    top: 3px;
+    left: -1px;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .made-with-mk .made-with {
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    left: 75px;
+    top: 10px;
+    opacity: 0;
+    margin: 0;
+    -webkit-transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+    -moz-transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+    -o-transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+    transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+  }
+  .made-with-mk .made-with strong {
+    font-weight: 400;
+    color: #4d4d4d;
+  }
